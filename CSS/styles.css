@@ -1,0 +1,78 @@
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-content: stretch;
+}
+
+header {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.links-header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+}
+
+.cabecera {
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.referencias {
+    background-color: coral;
+}
+
+.desarrollo {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.cita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.autor-cita {
+    background-color: beige;
+}
+
+.registrarse-cuerpo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registrarse {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    background-color: cornsilk;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: cyan;
+    text-align: center;
+}
