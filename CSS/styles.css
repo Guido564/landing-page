@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
+    min-height: 100%;;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -38,6 +38,10 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .links-header {
     display: flex;
     margin-right: 250px;
@@ -70,6 +74,7 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .cita {
@@ -77,7 +82,7 @@ a {
     align-items: center;
     width: 860px;
     height: 600px;
-
+    margin: 50px 0;
 }
 
 .autor-cita {
@@ -96,15 +101,21 @@ a {
 }
 
 .registro-boton {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    align-items: center;
     margin: 20px;
 }
 
 .registro-boton button {
     padding: 5px;
+    border: 1px solid #1E2022;;
+    cursor: pointer;
+    color: rgb(60, 66, 87);
+    background-color: #1E2022;
+    color: #F0F5F9;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 8px;
+    min-height: 28px;
 }
 
 .registro-cuerpo {
@@ -112,31 +123,36 @@ a {
     text-align: center;
 }
 
-
 .registrarse {
-    height: 200px;
-    width: 600px;
+    height: 250px;
+    width: 620px;
     display: flex;
-    background-color: cornsilk;
+    background-color: #EEEEEE;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     margin: 50px;
 }
 
+.registro-boton button:hover {
+    background-color: #F0F5F9;
+    color: #1E2022;
+}
+
 footer {
-    background-color: #A0AECD;
+    background-color: #F0F5F9;
+    margin: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 .c-izq {
     width: 400px;
-    margin-bottom: 50px;
-}
-
-.c-izq button {
-    width: 150px;
-    padding: 8px;
+    margin: 50px 0;
+    font-size: 20px;
 }
 
 .c-der img {
@@ -144,7 +160,6 @@ footer {
     border: 5px solid black;
     margin: 30px;
     border-radius: 10px;
-    
 }
 
 .info img {
@@ -156,8 +171,14 @@ footer {
     border-radius: 10px;
 }
 
+.info img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 .c-izq button {
-    border: 0;
+    width: 150px;
+    border: 1px solid #1E2022;;
     outline: 0;
     cursor: pointer;
     color: rgb(60, 66, 87);
@@ -165,9 +186,14 @@ footer {
     color: #F0F5F9;
     border-radius: 4px;
     font-size: 14px;
-     font-weight: 500;
+    font-weight: 500;
     padding: 4px 8px;
     min-height: 28px;
+}
+
+.c-izq button:hover {
+    background-color: #F0F5F9;
+    color: #1E2022;
 }
 
 blockquote {
@@ -176,4 +202,16 @@ blockquote {
 
 cite {
     margin-left: 500px;
+}
+
+.referencias h2 {
+    margin-top: 50px;
+}
+
+.registro h2 {
+    margin-top: 50px;
+}
+
+.registrarse-cuerpo {
+    margin-bottom: 50px;
 }
